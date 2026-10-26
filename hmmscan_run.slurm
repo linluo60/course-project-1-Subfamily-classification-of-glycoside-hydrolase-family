@@ -7,4 +7,4 @@
 #SBATCH --partition=batch,guest
 
 ml hmmer/3.3
-hmmscan --domtblout gh31_hmmscan.out.dm dbCAN-fam-HMMs.txt.v14 /work/fdst396/your_name/course_project_1/part_1/batch_protein_sequences.fasta > gh31_hmmscan.out
+hmmscan --domtblout gh31_hmmscan.out.dm dbCAN.hmm /work/fdst396/your_name/course_project_1/part_1/batch_protein_sequences.fasta > gh31_hmmscan.out
